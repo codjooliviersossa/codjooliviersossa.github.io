@@ -1,84 +1,124 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Bem vindo</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+	<link rel="apple-touch-startup-image" href="earth-folder.png" />
+    <title>Codjo O. S | MY PHD</title>
+</head>
+<body>
+  <div id="main">
+    <!-- Tete de page -->
+      <div id="header">
+              <!-- Pour le logo d'en tete -->
+              <div id="logo">
+                  <div id="logo_text">
+                    <!-- class="logo_colour", allows you to change the colour of the text -->
+                    <!-- <h1><a href="index.html"> Codjo Olivier SOSSA, PhD</span></a></h1> -->
+                  </div>
+              </div>
+              <!-- Fin Pour le logo d'en tete -->
+              <!-- Pour la barre de menu-->
+              <div id="menubar">
+                <ul id="menu">
+                  <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+                  <li class="selected"><a href="index.html">Home</a></li>
+                  <li><a href="Papers.html">Papers</a></li>
+                  <li><a href="Project.html">Project</a></li>
+                  <li><a href="My_PhD.html">My PhD</a></li>
+                  <li><a href="MOPGA.html">MOPGA</a></li>
+                  <li><a href="Upon_on_sea.html">Upon on sea</a></li>
+                  <li><a href="Ressource.html">Ressource</a></li>
+                  <!-- <li><a href="Vision.html">Vision</a></li> -->
+                  <li><a href="Leisure.html">Leisure</a></li>
+                  <!-- <li><a href="index.html">Unpon at sea</a></li> -->
+                </ul>
+              </div>
+              <!-- Fin de Pour la barre de menu-->
+      </div>
+    <!-- Fin de Tete de page -->
 
-         <!--Google Fonts-->
-        <link 
-            href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" 
-            rel="stylesheet">
+    <!-- Contenance de la page -->
+      <div id="site_content">
+          <div class="sidebar">
+            <!-- insert your sidebar items here -->
+            <!-- Insertion d'image de profil-->
+            <img class="Ronde" src="./img/codjo.png" alt="Odilon J. H"/>
+            <!-- Fin Insertion d'image de profil-->
+            <h4>Contact</h4>
+            <h5>codjo.sossa@ufpe.br.</br>gov</h5> 
+            <p class="LienS"> 
+              <b>Office:</b> 323H (at JPL) <br/> <b>Tel:</b> +55 (81) 996468-967 (office)
+            </p>
+            <p class="LienS">
+              <a href="https://www.researchgate.net/profile/Sossa-Olivier" title="My ResearchGate" target="_blank">ResearchGate</a> --
+              <a href="https://www.webofscience.com/wos/author/record/KLD-1106-2024" title="My WebofScience" target="_blank">WebofScience</a><br/>
+              <a href="https://orcid.org/0000-0002-6732-251X" title="My ORCID" target="_blank">ORCID</a> --
+              <a href="https://www.linkedin.com/in/codjo-olivier-sossa-5327b2a7" title="My LinkedIn" target="_blank">LinkedIn</a>
+            </p>    
+                                      
+            <h5> <a href="https://www.ufpe.br/" title="UFPE" target="_blank"><b>UFPE</b></a> - Federal University of Pernambuco <br/>
+              <a href="https://www.uefs.br/" title="UEFS" target="_blank"><b>UEFS</b></a> - state university of feira de santana</br>
+              </h5>
+            <!-- <ul class="LienS"> -->
+              <!--<P><HR SIZE="4"></P>-->
+                <br/><br/>
+            <h4> <b>Fundings</b></h4>
+            <h5> <b>UEFS</b> - state university of feira de santana-- (Marh 2024 - present) <br/> <br/>
+              <b>UFPE</b> - Federal University of Pernambuco -- (March 2016 to Dec 2023) <br/>
+              <a href="https://repositorio.ufpe.br/bitstream/123456789/50326/1/TESE%20Codjo%20Olivier%20Sossa.pdf" title="THESIS" target="_blank">
+                <b>THESIS</b></a> - High Order Asymptotic Theory in Symmetrical Nonlinear Models Heteroscedastic -- (PhD thesis, March 2019 to December 2023)
+            </h5>
+            <h4> <b>Alumnis</b></h4>
+            <h5> 
+              <a href="http://www.faseg.net/" title=" UAC-FASEG-Alumni" target="_blank"><b>UAC-FASEG Alumni</a></b> - from 2012 <br/>
+            </h5> 
+            <!-- -->
+          </div>
 
-        <!--Font Awesome-->
-        <link 
-            rel="stylesheet" 
-            href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-            integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" 
-            crossorigin="anonymous">
-
-        <!--Meu estilo-->
-        <link rel="stylesheet" href="./css/style.css">
-    </head>
-    <body>
-        <main class="container">
-            <article>
-                <section class="foto-social">
-                    <div class="foto">
-                        <img src="./img/mulher.png" alt="Minha foto" title="colocar meu nome">
-                    </div>
-                    <ul class="social">
-                        <li>  
-                            <a href="#" target="_blank">
-                                <span class="fab fa-linkedin-in"></span>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#" target="_blank">
-                                    <span class="fab fa-youtube"></span>
-                            </a>
-                        </li>
-
-                        <li>  
-                            <a href="#" target="_blank">
-                                <span class="fab fa-facebook-f"></span>
-                            </a>
-                        </li>
-
-                        <li>  
-                            <a href="#" target="_blank">
-                                <span class="fab fa-twitter"></span>
-                            </a>
-                        </li>
-                    </ul>
-                </section>
-                <section class="texto">
-                    <h1>Quem sou eu ?</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua. Scelerisque in dictum non consectetur a 
-                        erat nam. Amet volutpat consequat mauris nunc congue nisi. 
-                        Tortor at risus viverra adipiscing at.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua. Scelerisque in dictum non consectetur a 
-                        erat nam. Amet volutpat consequat mauris nunc congue nisi. 
-                        Tortor at risus viverra adipiscing at.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore 
-                        magna aliqua. Scelerisque in dictum non consectetur a 
-                        erat nam. Amet volutpat consequat mauris nunc congue nisi. 
-                        Tortor at risus viverra adipiscing at.
-                    </p>
-                </section>
-            </article>
-        </main>
-    </body>
+         <div id="content">
+            <!-- insert the page content here -->
+              <!--<h1>About my PhD project</h1> -->
+              <h1> Highest-order asymptotic theory in the class of heteroscedastic symmetric nonlinear models</h1>
+                <p><b>Authors:</b> Sossa C.O and Audrey H. M.A.C</p>
+               <p>
+                In this thesis, we extend the class of nonlinear symmetric heteroscedastic models (MNLSH) by allowing the mean and dispersion link functions
+                   to be nonlinear functions that depend on a set of unknown parameters to be estimated, with multiplicative heteroscedasticity as a particular
+                   case. Four lines of research are addressed in this work. The first deals with the derivation of analytical expressions that allow the
+                   calculation of the biases of the maximum likelihood estimators via Cox and Snell (1968) in the MNLSH class, making it possible to obtain 
+                   corrected estimators, which, in principle, are more accurate than the uncorrected ones. Bootstrap-corrected bias estimators were also 
+                   considered. In addition, we presented different types of confidence intervals. In the second and third lines of research, we derived 
+                   matrix expressions for the Bartlett and type-Bartlett correction factors to the likelihood ratio and score test statistics, respectively,
+                   with the aim of improving the quality of inferences about the mean and dispersion regression parameters in HLSMs. The performance of the
+                   estimators and hypothesis tests was evaluated numerically and compared to their uncorrected versions through Monte Carlo simulation studies, 
+                   in terms of size and power, on finite samples. The fourth line of research deals with diagnostic techniques for HLMS, namely: generalized leverage,
+                   local and global influence. Finally, a data set is used to evaluate our theoretical results.
+               </p>
+          </div>
+      </div>
+    <!-- Fin de Contenance de la page -->
+    <div class="row">
+      <div class="col">
+          <h3><span style="color:gray;">Current time in</span><br />California City, USA
+          <img class="Drapeau" src="https://www.zeitverschiebung.net/img/flag-icon-css/flags/4x3/us.svg" alt=" United States" width="40" height="30">
+          </h3>
+          <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=America%2FLos_Angeles" width="100%" height="115" frameborder="0" seamless></iframe> 
+      </div>
+      <div class="col">
+          <h3><span style="color:gray;">Current time in</span><br />Paris, France
+          <img class="Drapeau" src="https://www.zeitverschiebung.net/img/flag-icon-css/flags/4x3/fr.svg" alt="France Europe" width="40" height="30">
+          </h3> 
+          <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Europe%2FParis" width="100%" height="115" frameborder="0" seamless></iframe>
+      </div>
+      <div class="col">
+          <h3><span style="color:gray;">Current time in</span><br/>Porto-Novo, Benin
+          <img class="Drapeau" src="https://www.zeitverschiebung.net/img/flag-icon-css/flags/4x3/bj.svg" alt="Benin Africa" width="40" height="30">
+          </h3>
+           <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=en&size=medium&timezone=Africa%2FPorto-Novo" width="100%" height="115" frameborder="0" seamless></iframe> 
+      </div>
+  </div>
+  </div>
+</body>
 </html>
